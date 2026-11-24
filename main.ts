@@ -5,7 +5,7 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 const LINE =
-  "Picture every town's letters, books and talk carried on one road no eye can see, so a note you write at breakfast is read across the sea before supper, and any man's learning lies open to you.";
+  "Picture every town's letters, books and talk carried on one road no eye can see: a note you write at breakfast is read across the sea before supper, and every book ever printed lies open to you.";
 
 // Gate guard: the sealed scorer only accepts UTF-8 text of 1-200
 // characters, not only whitespace. The line must also stay a single
